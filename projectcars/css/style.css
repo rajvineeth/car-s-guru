@@ -45,6 +45,7 @@ html{
 @media screen and (min-width: 600px){
   footer{
   display: flex;
+  flex-direction: column;
 }
   .ps1 {
     display: flex;
@@ -261,6 +262,7 @@ footer{
   color: white;
   background: black;
   display: flex;
+  flex-wrap: wrap;
 }
 .caption1{
       margin-bottom: 5px;
@@ -283,6 +285,3 @@ footer{
   width: 100%;
   text-align: center;
 }
-.foot ul{
-  list-style: none;
-  }
