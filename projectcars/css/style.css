@@ -45,6 +45,7 @@ html{
 @media screen and (min-width: 600px){
   footer{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
   .ps1 {
@@ -262,6 +263,7 @@ footer{
   color: white;
   background: black;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .caption1{
