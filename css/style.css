@@ -47,8 +47,6 @@ header nav ul {
 @media screen and (min-width: 600px){
   footer{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
   .ps1 {
     display: flex;
@@ -68,11 +66,11 @@ header nav ul {
 }
 
 .ps2 div {
-  border: 12px solid grey ;
+  border: 12px solid white ;
   position: relative;
   display: inline-block;
   padding: 10px;
-  background: rgba(0,0,0,0.2);
+  background:black;
   text-align: center;
 }
 
@@ -104,9 +102,10 @@ header nav ul {
     font-size: 130%;
     font-family: roboto,Sans-Serif,Arial;
     padding-top: 64px;
+    justify-content: space-around;
 }
 .pk1:first-child{
-  padding-left: 80px;
+  justify-content: space-around;
 
 }
 button{
@@ -121,7 +120,7 @@ button:hover{
   background: rgba(0,0,0,1);
 }
 header ul  li a{
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-family: roboto,Sans-Serif,Arial;
   text-align: center;
   padding: 0;
@@ -291,6 +290,7 @@ footer{
   justify-content: space-between;
   justify-content: space-around;
 }
+
 .caption1{
       margin-bottom: 5px;
     margin-top: 0;
@@ -304,11 +304,12 @@ footer{
   
 }
 .insert{
-  border: 12px solid grey ;
+  border: 12px  ;
+  border-color: #cc7ecc;
   position: relative;
   display: inline-block;
   padding: 10px;
-  background: rgba(0,0,0,0.2);
+  background: white;
   width: 100%;
   text-align: center;
 }
@@ -320,4 +321,16 @@ footer{
 }
 .foot ul li,.foot1 ul li{
   list-style: none;
+}
+.foot ul, .foot1 ul, .f_4 ul{
+  padding: 0;
+  margin:0;
+}
+.fig2:hover{
+  -webkit-box-shadow: 22px 10px 11px -2px rgba(66,26,26,1);
+-moz-box-shadow: 22px 10px 11px -2px rgba(66,26,26,1);
+box-shadow: 22px 10px 11px -2px rgba(66,26,26,1);
+}
+.ps2{
+  color: white;
 }
